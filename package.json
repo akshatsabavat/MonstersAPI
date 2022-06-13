@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/akshatsabavat/MonstersAPI/issues"
   },
-  "homepage": "https://github.com/akshatsabavat/MonstersAPI#readme"
+  "homepage": "https://github.com/akshatsabavat/MonstersAPI#readme",
+  "dependencies": {
+    "pg": "^8.7.3"
+  }
 }
