@@ -10,8 +10,4 @@ const pool = new Pool({
 
 pool.connect();
 
-//all queries will be written or desgined in the pool module
-pool.query("SELECT * FROM monsters", (err, res) => {
-  if (err) console.log(err);
-  console.log(res);
-});
+module.exports = pool;
