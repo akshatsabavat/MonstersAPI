@@ -1,0 +1,20 @@
+{
+  "name": "monstersapi",
+  "version": "1.0.0",
+  "description": "code base for MonstersAPI using postgressSQL and express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshatsabavat/MonstersAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshatsabavat/MonstersAPI/issues"
+  },
+  "homepage": "https://github.com/akshatsabavat/MonstersAPI#readme"
+}
