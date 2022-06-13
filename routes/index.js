@@ -1,7 +1,7 @@
-// const { Router } = require("express");
-// const monsters = require("./monsters");
+const { Router } = require("express");
+const monsters = require("./monsters");
 
-// const router = Router();
+const router = Router();
 
-// router.use("/monsters", monsters);
-// module.exports = router;
+router.use("/monsters", monsters);
+module.exports = router;
