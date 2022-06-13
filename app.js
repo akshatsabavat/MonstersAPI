@@ -3,7 +3,6 @@ const bodyParser = require("body-parser");
 const port = 3000;
 const app = express();
 const routes = require("./routes");
-const monsters = require("./routes/monsters");
 
 app.use(bodyParser.json());
 app.use("/", routes);
